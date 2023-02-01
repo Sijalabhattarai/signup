@@ -10,14 +10,20 @@ h1{
     font-family: monospace;
     text-shadow: 1px 2px black;
 }
-.container{
-margin: auto;
-    margin-top: 200px;
-    width: 400px;
-    background-image: linear-gradient(grey,skyblue);
-    text-align: center;
-    border-radius: 15px;
+.form{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    background-image: linear-gradient(skyblue,greenyellow,pink);
+    gap:10px;
+    width: 200px;
+    border-radius: 10px;
+    margin: auto;
 }
+h1{
+    text-align: center;
+}
+
 input{
     padding: 10px;
     border: 1px solid black;
